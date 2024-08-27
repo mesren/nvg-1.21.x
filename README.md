@@ -1,6 +1,6 @@
 ## NanoVG for 1.21x
 
-Tutorial inspired by (this)[https://nanovg.aetherium.club/gradle-mcp.html]. (This wont work on its own)
+Tutorial inspired by [this](https://nanovg.aetherium.club/gradle-mcp.html). (This wont work on its own)
 
 # Getting and patching LWJGL3
 
@@ -38,8 +38,8 @@ We used a pre-patched LWJGL, However NanoVG isn't patched so we will through a M
 
 NanoVG looks for a GL class, but it's not present in LWJGL 2, so we have to use our own function provider.
 
-(Function Provider)[https://gist.github.com/refactorinqq/31a10444bb6c49eb5a370b2353f664cb]
-(Mixin)[https://gist.github.com/refactorinqq/b65f3ac1aba2cf3a15323aa60f47995f]
+[Function Provider](https://gist.github.com/refactorinqq/31a10444bb6c49eb5a370b2353f664cb)
+[Mixin](https://gist.github.com/refactorinqq/b65f3ac1aba2cf3a15323aa60f47995f)
 
 Congrats! You have successfully aqired LWJGL and NanoVG.
 # UI Example
