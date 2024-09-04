@@ -15,6 +15,8 @@ lwjgl_patch_version = 5
 
 Add this to your build.gradle:
 ```
+def lwjglNatives = "natives-windows" // Change this depending on your platform: windows, linux, macos
+
 repositories {
         maven { url "https://jitpack.io" }
         mavenCentral()
